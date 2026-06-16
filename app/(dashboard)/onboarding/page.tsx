@@ -125,7 +125,7 @@ export default function OnboardingPage() {
         {/* Header */}
         <div className="text-center mb-8">
           <span className="text-2xl font-extrabold text-indigo-600 tracking-tight">Zeggo</span>
-          <p className="text-sm text-gray-500 mt-1">Let's set up your business</p>
+          <p className="text-sm text-gray-500 mt-1">Let&apos;s set up your business</p>
         </div>
 
         <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">

@@ -127,7 +127,7 @@ export default function SlotsPage() {
 
               {slots.length === 0 ? (
                 <p className="text-xs text-gray-400 text-center py-4">
-                  No slots yet. Click "Generate slots" to create them from working hours.
+                  No slots yet. Click &quot;Generate slots&quot; to create them from working hours.
                 </p>
               ) : (
                 <div className="grid grid-cols-4 sm:grid-cols-6 gap-2">

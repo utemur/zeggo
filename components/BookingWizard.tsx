@@ -445,9 +445,9 @@ export default function BookingWizard({
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <h2 className="text-xl font-extrabold text-gray-900 mb-1">You're booked!</h2>
+            <h2 className="text-xl font-extrabold text-gray-900 mb-1">You&apos;re booked!</h2>
             <p className="text-sm text-gray-500 mb-6">
-              We'll be expecting you. See the details below.
+              We&apos;ll be expecting you. See the details below.
             </p>
 
             <div className="bg-white border border-gray-200 rounded-2xl p-5 text-left mb-6 space-y-3">
