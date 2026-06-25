@@ -399,7 +399,7 @@ export default function BookingWizard({
                   value={clientName}
                   onChange={e => setClientName(e.target.value)}
                   placeholder="Your name"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-xl text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
               <div>
@@ -409,7 +409,7 @@ export default function BookingWizard({
                   value={clientPhone}
                   onChange={e => setClientPhone(e.target.value)}
                   placeholder="+998 90 123 45 67"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-xl text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 />
               </div>
             </div>

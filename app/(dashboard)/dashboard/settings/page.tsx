@@ -101,7 +101,7 @@ export default function SettingsPage() {
             value={name}
             onChange={e => setName(e.target.value)}
             required
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-xl text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
           />
         </div>
 
@@ -115,7 +115,7 @@ export default function SettingsPage() {
             value={chatId}
             onChange={e => setChatId(e.target.value)}
             placeholder="e.g. 123456789"
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-xl text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
           />
           <p className="text-xs text-gray-400 mt-1.5">
             Message <span className="font-mono">@userinfobot</span> on Telegram to get your chat ID.

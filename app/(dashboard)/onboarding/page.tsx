@@ -165,7 +165,7 @@ export default function OnboardingPage() {
                     value={name}
                     onChange={e => setName(e.target.value)}
                     placeholder="e.g. The Sharp Barber"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                   />
                 </div>
 
@@ -226,14 +226,14 @@ export default function OnboardingPage() {
                             type="time"
                             value={hours[key].start}
                             onChange={e => updateDay(key, 'start', e.target.value)}
-                            className="px-2 py-1 border border-gray-200 rounded-lg text-xs text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                            className="px-2 py-1 border border-gray-200 rounded-lg text-xs text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-400"
                           />
                           <span className="text-gray-400 text-xs">—</span>
                           <input
                             type="time"
                             value={hours[key].end}
                             onChange={e => updateDay(key, 'end', e.target.value)}
-                            className="px-2 py-1 border border-gray-200 rounded-lg text-xs text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                            className="px-2 py-1 border border-gray-200 rounded-lg text-xs text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-400"
                           />
                         </div>
                       ) : (
@@ -262,7 +262,7 @@ export default function OnboardingPage() {
                     value={staffName}
                     onChange={e => setStaffName(e.target.value)}
                     placeholder="e.g. Alex Johnson"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                   />
                 </div>
 
@@ -277,7 +277,7 @@ export default function OnboardingPage() {
                       value={staffTelegram}
                       onChange={e => setStaffTelegram(e.target.value.replace(/^@/, ''))}
                       placeholder="username"
-                      className="w-full pl-7 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                      className="w-full pl-7 pr-3 py-2 border border-gray-300 rounded-lg text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                     />
                   </div>
                   <p className="text-xs text-gray-400 mt-1">Used to send booking notifications via Telegram bot.</p>
